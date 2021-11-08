@@ -5,68 +5,68 @@
 
 const cardData = [
     {
-        imgSrc: "./kobe.jpg",
+        imgSrc: "imgs/kobe.jpg",
         name: "kobePic"
     },
 
     {
-        imgSrc: "./pak.jpg",
+        imgSrc: "imgs/pak.jpg",
         name: "pakPic"
     },
     {
-        imgSrc: "./kobe.jpg",
+        imgSrc: "imgs/kobe.jpg",
         name: "kobePic"
     },
     {
-        imgSrc: "./leb.jpg",
+        imgSrc: "imgs/leb.jpg",
         name: "lebPic"
     },
     {
-        imgSrc: "./leb.jpg",
+        imgSrc: "imgs/leb.jpg",
         name: "lebPic"
     },
     {
-        imgSrc: "./pak.jpg",
+        imgSrc: "imgs/pak.jpg",
         name: "pakPic"
     },
     {
-        imgSrc: "./can.jpg",
+        imgSrc: "imgs/can.jpg",
         name: "canPic"
     },
     {
-        imgSrc: "./montain.jpg",
+        imgSrc: "imgs/montain.jpg",
         name: "montainPic"
     },
     {
-        imgSrc: "./can.jpg",
+        imgSrc: "imgs/can.jpg",
         name: "canPic"
     },
     {
-        imgSrc: "./montain.jpg",
+        imgSrc: "imgs/montain.jpg",
         name: "montainPic"
     },
     {
-        imgSrc: "./mario.jpg",
+        imgSrc: "imgs/mario.jpg",
         name: "marioPic"
     },
     {
-        imgSrc: "./raps.png",
+        imgSrc: "imgs/raps.png",
         name: "rapsPIc"
     },
     {
-        imgSrc: "./mushrrom.png",
+        imgSrc: "imgs/mushrrom.png",
         name: "mushroomPic"
     },
     {
-        imgSrc: "./mario.jpg",
+        imgSrc: "imgs/mario.jpg",
         name: "marioPic"
     },
     {
-        imgSrc: "./raps.png",
+        imgSrc: "imgs/raps.png",
         name: "rapsPic"
     },
     {
-        imgSrc: "./mushrrom.png",
+        imgSrc: "imgs/mushrrom.png",
         name: "mushroomPic"
     }
 ]
