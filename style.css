@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    font-family: 'Lato', sans-serif;
+}
+
+.container
+{
+    pointer-events: none;
+}
+
+#card
+{
+    position: relative;
+    background: white;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    width: 135px;
+    height: 135px;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+    transition: 1s;
+    /* pointer-events: none; */
+}
+
+header
+{
+    font-size: 1em;
+    text-align: center;
+    padding: 1em;
+    min-height: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+header h1
+{
+    font-size: 3em;
+}
+
+header > p
+{
+    font-size: 1.2em;
+    font-weight: bolder;
+}
+
+.lives
+{
+    display: inline-block;
+    padding-top: 0.45em;
+}
+
+.grid
+{
+    min-height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-content: center;
+    gap: 1.5em;
+    padding-bottom: 2em;
+    cursor: pointer;
+}
+
+.grid > *
+{
+    align-self: center;
+    justify-self: center;
+    /* margin: 1em 0em; */
+}
+
+/* GROUPS */
+.group
+{
+    position: relative;
+    pointer-events: auto;
+}
+
+.imgz
+{
+    position: absolute;
+    top: 0;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+    transition: 1s;
+    width: 135px;
+    height: 135px;
+}
+
+.imgz.turn
+{
+    transform: rotateY(0deg);
+}
+
+.turn
+{
+    transform: rotateY(180deg);
+}
+
+.flex
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0.5em;
+}
+
+.heart
+{
+    width: 40px;
+}
+
+.yo
+{
+    pointer-events: none;
+}
+
+
+@media(max-width: 658px)
+{
+    #card
+    {
+        width: 100px;
+        height: 100px;
+    }
+
+    .imgz
+    {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+
+@media(max-width: 568px)
+{
+    body
+    {
+        height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: start;
+    }
+
+    #card
+    {
+        width: 75px;
+        height: 75px;
+    }
+    
+    .imgz
+    {
+        width: 75px;
+        height: 75px;
+    }
+    
+      .grid
+    {
+        grid-template-columns: repeat(2, 1fr);
+        padding-bottom: 4em;
+        padding-top: 1.5em;
+    }
+
+        header h1
+    {
+        font-size: 2em;
+    }
+}
+
+@media(max-width: 350px)
+{
+        .heart
+{
+    width: 35px;
+}
+
+header
+{
+    font-size: 0.6em;
+}
+
+   #card
+    {
+        width: 100px;
+        height: 100px;
+    }
+    
+    .imgz
+    {
+        width: 100px;
+        height: 100px;
+    }
+}
+
